@@ -1,0 +1,88 @@
+.simpleLabel {
+    color: var(--System-Primary, rgba(4, 4, 31, 0.80));
+    font-family: 'Inter' , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-left: 8px;
+
+}
+.labelImageContainer{
+    padding: 12px;
+    margin-left: 4px;
+    display: flex;
+
+}
+.checkboxContainer{
+    margin-left: 20px;
+
+}
+.radioContainer{
+    margin-left: 20px;
+
+}
+.textAreaContainer{
+    padding: 20px;
+
+}
+.selectFieldContainer{
+    width: 100%!important;
+}
+.selectField{
+    width: 100%;  
+}
+:where(.css-dev-only-do-not-override-42nv3w).ant-input-out-of-range, :where(.css-dev-only-do-not-override-42nv3w).ant-input-out-of-range input, :where(.css-dev-only-do-not-override-42nv3w).ant-input-out-of-range textarea, :where(.css-dev-only-do-not-override-42nv3w).ant-input-out-of-range .ant-input-show-count-suffix, :where(.css-dev-only-do-not-override-42nv3w).ant-input-out-of-range .ant-input-data-count {
+     color: black!important; 
+}
+.simple-input-field{
+    color: var(--System-Primary, rgba(4, 4, 31, 0.80));
+    font-family: 'Inter' , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: 150%;
+  
+  }
+  input.ant-input {
+    color: var(--System-Primary, rgba(4, 4, 31, 0.80))!important;
+    font-family: 'Inter' , sans-serif;
+    font-size: 14px!important;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: 150%;
+}
+.loader-spinner{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+.star-img{
+    width: 14px;
+    height: 14px;
+}
+
+.loader-spinner p{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: var(--System-Primary, rgba(4, 4, 31, 0.80))!important;
+    font-family: 'Inter' , sans-serif;
+    font-size: 14px!important;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: 150%;
+}
+
+.css-ihdtdm{
+    display : none
+}

@@ -1,0 +1,32 @@
+.IFrame {
+  text-align: center;
+}
+.iconButtonWithText {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.iconButtonWithText .buttonText {
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.iconButtonWithText:hover .buttonText {
+  opacity: 1;
+}
+.widgetBtn{
+  background-color: black!important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+padding: 6px 12px !important;
+}
+
+.css-1v3hyuc-MuiFormControl-root {
+  margin: 0px !important;
+}

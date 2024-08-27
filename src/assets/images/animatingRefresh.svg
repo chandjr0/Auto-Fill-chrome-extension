@@ -1,0 +1,19 @@
+<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @keyframes spin {
+            from { 
+                transform: rotate(0deg); 
+            }
+            to { 
+                transform: rotate(360deg); 
+            }
+        }
+        svg {
+            animation: spin 2s linear infinite;
+            transform-origin: center;
+        }
+    </style>
+    <g id="tabler:refresh">
+        <path d="M11.6663 6.91641C11.5237 5.88987 11.0475 4.93872 10.311 4.20945C9.57463 3.48019 8.61887 3.01328 7.59098 2.88065C6.5631 2.74802 5.52012 2.95703 4.62271 3.47547C3.7253 3.99392 3.02324 4.79304 2.62467 5.74975M2.33301 3.41641V5.74975H4.66634M2.33301 8.08308C2.47567 9.10962 2.95188 10.0608 3.6883 10.79C4.42472 11.5193 5.38048 11.9862 6.40837 12.1188C7.43625 12.2515 8.47923 12.0425 9.37664 11.524C10.2741 11.0056 10.9761 10.2065 11.3747 9.24975M11.6663 11.5831V9.24975H9.33301" stroke="#81818F" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+</svg>
